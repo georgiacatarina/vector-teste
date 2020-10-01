@@ -28,10 +28,19 @@
     box-shadow: 0 0 1px rgba(255,255,255,.5);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
-
-.profile-img {
-    width: 42px;
-    height: 42px;
+header .profile {
+    color: #fff;
+}
+header .profile:hover {
+    color: inherit;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile .fa {
+    font-size: 2rem;
+    margin: 0 5px;
 }
 
 /* geral */
@@ -247,4 +256,8 @@ header .dropdown-toggle::after{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding-bottom: 10px;
+}
+
+small {
+    color: #666;
 }
